@@ -5,12 +5,12 @@ import { Login } from './components/Login.js';
 import { SignUp } from './components/SignUp.js';
 function App() {
   return (
-    <div style={{width:'100%',height:'100%'}}>
-      <SignUp/>
+    <div style={{width:'100%',height:'100%',backgroundColor:'#2AA18B'}}>
+      {/* <SignUp/> */}
       {/* <Login/> */}
-      {/* <Header/>
+      <Header/>
       <ASCIIcreate/>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }
